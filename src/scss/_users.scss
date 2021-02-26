@@ -1,0 +1,28 @@
+.user {
+   .card-container {
+
+      min-height: 370px;
+   }
+
+   .grid {
+      @include grid($min:540px);
+   }
+
+   figcaption {
+      margin-top: 10px;
+   }
+}
+
+.repo-items {
+   border: 1px solid $color-gray-light;
+   padding-left: 20px;
+
+   &:hover {
+      background-color: $color-green-dark;
+      cursor: pointer;
+
+      a {
+         color: $color-white;
+      }
+   }
+}

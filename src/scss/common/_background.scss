@@ -1,0 +1,31 @@
+.main-background {
+   background-color: $color-blue;
+   padding: 20px;
+   min-height: 106px;
+   color: $color-white;
+}
+
+.bg-primary {
+   background-color: $color-primary;
+   color: $color-white;
+}
+
+.bg-secondary {
+   background-color: $color-secondary;
+   color: $color-white;
+}
+
+.bg-danger {
+   background-color: $color-danger;
+   color: $color-white;
+}
+
+.bg-warning {
+   background-color: $color-warning;
+
+}
+
+.bg-info {
+   background-color: $color-info;
+   color: $color-white;
+}
